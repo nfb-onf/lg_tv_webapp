@@ -1,0 +1,1 @@
+accedo.define("nfb.ui.container",["accedo.utils.object","accedo.utils.dom","accedo.ui.container"],function(){return function(a){a.root=accedo.utils.dom.element("div");return accedo.utils.object.extend(accedo.ui.container(a),{onAppend:function(b){b.attachTo(a.root);}}).containerInit();};});

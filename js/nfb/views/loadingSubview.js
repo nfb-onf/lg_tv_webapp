@@ -1,0 +1,1 @@
+accedo.define("nfb.views.loadingSubview",["nfb.ui.container","accedo.ui.image"],function(){return{type:nfb.ui.container,id:"loadingSubview",htmlid:"loadingSubview",children:[{type:accedo.ui.image,id:"loadingImg",htmlid:"loadingImg",src:"image/loading_ani.gif"}]};});
